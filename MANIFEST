@@ -1,0 +1,17 @@
+BUGS
+CHANGES
+CREDITS
+MANIFEST
+README
+SIGNATURE
+LICENSE
+TODO
+Makefile.PL
+lib/Game/3D/World.pm		# container for all
+lib/Game/3D/Brush.pm		# a CSG brush
+lib/Game/3D/Level.pm		# one level
+lib/Game/3D/Vector.pm		# represents one vector
+t/brush.t
+t/level.t
+t/vector.t
+t/world.t

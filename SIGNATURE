@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.21.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+SHA1 1773edbe9171a5f7b554cd210f4dc8cfb911674e BUGS
+SHA1 544b78c8d24b857c07de6024f49106ea46f907b9 CHANGES
+SHA1 3a93c8b7be73dcb5388a0a891e912e1eed36acb5 CREDITS
+SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
+SHA1 d3507e1a09939a7ecac3236bd32ca234d69c9e91 MANIFEST
+SHA1 e465f22378816b0aef58127118e5e2f994b45fb4 Makefile.PL
+SHA1 aeedafd454fce0513c11190f4333da51c1678b7c README
+SHA1 0c798841b6388bc8d9292a6be37fc1278323ac33 TODO
+SHA1 ae009a533318860491df50470756b690ab36319a lib/Game/3D/Brush.pm
+SHA1 d4f867625b399f35fa435ffda2cfd3ba75e37636 lib/Game/3D/Level.pm
+SHA1 dd5c9687c5588f287300203d8f2afe306eed7db3 lib/Game/3D/Vector.pm
+SHA1 7d040bab9daf9838ae94abb153d344aae7401d7d lib/Game/3D/World.pm
+SHA1 fafec01e4c073c0763fb34df7202ce8f844be642 t/brush.t
+SHA1 f7d7648abea4a5f11d02890fa7a7175a8b5b71f5 t/level.t
+SHA1 6c2bd537a03b4e6c8e443b99af073cf2871f2851 t/vector.t
+SHA1 b8f8ad16780de87503c9f3bf10b7d490faa37ead t/world.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.
+
+iQEVAwUBPmhj9ncLPEOTuEwVAQFRsQf+P1m3yJ34Z1LTkdWqKAZbboF7Ui/6MizE
+MJ2/ro62iXaKCNKgssy1yCaCS/H047il2Hiap85PIo6aPl4BO+9wbriDdx6RJfNc
+q6BVTqrC1yp23zM7j1+hTAatEEHpnj/WrRTWBz62Ss1//dhV5xic9GwOf41az/cl
+RsNz9rwI/L1kfQnkAVj4qTJE/aIJSsATZEqsyzueDE6PG4s9EpVVES/MP1Jbb4TI
+tsPSmEgY6xtArh55MMC31SZPMBgMJEOLCFc+FqCePBXJu4L3nBo+hQ1lFbJW6WMM
+g4vj24oWMmNS8WjIiXDBPNYDGCcNdP9aPaS9An5y52qLc7qseZnt3w==
+=ciD9
+-----END PGP SIGNATURE-----
